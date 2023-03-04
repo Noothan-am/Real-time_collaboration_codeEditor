@@ -1,0 +1,57 @@
+.left_part {
+    flex: 1;
+    padding: 0rem 1.3rem;
+    height: 100vh;
+    background-color: rgb(0, 26, 255);
+    color: rgb(255, 255, 255);
+}
+
+.right_part input {
+    outline: none;
+}
+
+.left_head-content h3 {
+    font-size: 2.5rem;
+    padding: 1.3rem;
+}
+
+.left_head-content p {
+    padding: .7rem;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.left_connected-users {
+    overflow-y: scroll;
+    height: 59vh;
+    margin-top: 2rem;
+}
+
+.left_connected-users li{
+ text-align: center;
+}
+
+.left_connected-users img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
+
+.left_head-content {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+button {
+    margin-top: .7rem;
+    border-radius: .7rem;
+    cursor: pointer;
+}

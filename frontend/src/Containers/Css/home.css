@@ -1,0 +1,77 @@
+.main{
+    background-color: #2a2adc;
+    height: 100vh;
+}
+.heading h1{
+    padding: 6rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Phudu', cursive;
+}
+.form p span{
+    color: rgb(255, 0, 0);
+    font-size: 14.4px;
+}
+.form p span:hover{
+    cursor: pointer;
+    color: #080f0b;
+}
+
+.form p{
+    text-align: end;
+    font-size: 13px;
+    margin-top: 1.2rem;
+    margin-bottom:-0.1rem;
+}
+.form{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 420px;
+	margin: auto;
+	padding: 16px;
+    box-shadow: 2px 2px 101px #080f0b9e;
+	background: #F7F7F7;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form select 
+{
+	outline: none;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+    /* margin-top: 1rem; */
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+	border: 1px solid #43D1AF;
+}
+button{
+    box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #1a0404;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+button:hover{
+    background: #2EBC99;
+}
+h6{
+    text-align: center;
+    color: #080f0b;
+    font-family: 'Phudu', cursive;
+    
+}
